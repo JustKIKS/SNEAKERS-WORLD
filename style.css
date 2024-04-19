@@ -26,6 +26,18 @@
     font-weight: 700;
     text-transform: uppercase;
   }
+
+  .jordan-logo {
+    position: absolute;
+    left: 20px;
+    z-index: 9;
+  }
+  
+  .jordan-logo2 {
+    position: absolute;
+    left: 348px;
+    z-index: 6;
+  }
   
   .logo-divine-white {
     position: absolute;
