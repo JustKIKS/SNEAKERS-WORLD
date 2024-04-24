@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: white;
+    background-color: #484848;
   }
   
   .header {
@@ -29,7 +29,7 @@
 
   .jordan-logo {
     position: absolute;
-    left: 20px;
+    left: 6px;
     z-index: 9;
   }
   
@@ -89,4 +89,138 @@
     color: white;
     bottom: -1px;
     position: relative;
+  }
+
+  .sneakers-video {
+
+  }
+
+  .drop-title {
+    font-size: 42px;
+    text-transform: uppercase;
+    padding-top: 85px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-card {
+    max-width: 18em;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 0 5px 50px #e1e1e1;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+    transition: 0.6s ease;
+    cursor: pointer;
+  }
+
+  .price-button {
+    padding-bottom: 10px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .product-card h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+  }
+  
+  .product-card div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-card button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+    padding-bottom: 2px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.2);
+    box-shadow: 0 5px 25px #e1e1e1;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #BlackWindbreaker3 img {
+    max-width: 18em;
+    background-color: #272727;
+    padding: 1em;
+    box-shadow: 0 5px 50px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+  }
+  
+  #BlackWindbreaker1 img {
+    max-width: 18em;
+    background-color: #272727;
+    padding: 1em;
+    box-shadow: 0 5px 50px white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+  }
+
+  .footer-section {
+    margin-top: 120px;
+    background-color: black;
+    z-index: 10;
+  }
+  
+  .signature {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 16px 0;
+  }
+  
+  .footer-list {
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-section li {
+    margin-bottom: 11px;
+    color: white;
+  }
+  
+  .mail {
+    text-decoration: none;
+    color: black;
+    color: white;
+  }
+  
+  #form-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-copyright {
+    color: white;
+    text-align: center;
+    margin-top: 34px;
+    margin-left: 15px;
+    font-size: 13px;
   }
