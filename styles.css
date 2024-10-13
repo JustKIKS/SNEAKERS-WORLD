@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #484848;
+}
+
+.header {
+  width: 100%;
+  padding: 20px 100px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.jordan-logo,
+.jordan-logo2,
+.logo-divine-white,
+.logo-divine-white2 {
+  position: absolute;
+}
+
+.jordan-logo {
+  left: 6px;
+  z-index: 9;
+}
+
+.jordan-logo2 {
+  left: 421px;
+  z-index: 6;
+}
+
+.logo-divine-white {
+  left: 20px;
+  z-index: 9;
+}
+
+.logo-divine-white2 {
+  left: 348px;
+  z-index: 6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  transition: color 0.3s ease; /* Transition pour le changement de couleur */
+}
+
+.navbar a:hover {
+  color: #ccc; /* Change la couleur au survol */
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+}
+
+.navbar a:hover::before {
+  width: 100%; /* Animation d'agrandissement du soulignement */
+}
+
+.sneakers-video {
+  display: block; /* S'assure que l'image s'affiche comme un bloc */
+  max-width: 100%; /* S'assure que l'image ne déborde pas */
+  height: auto; /* Garde les proportions de l'image */
+}
+
+.drop-title {
+  font-size: 42px;
+  text-transform: uppercase;
+  padding-top: 85px;
+  color: white;
+  text-align: center; /* Centrer le titre */
+}
+
+.card-container {
+  display: flex;
+  justify-content: center; /* Centre les cartes */
+  flex-wrap: wrap; /* Permet aux cartes de passer à la ligne */
+  margin-top: 50px; /* Espace entre le titre et les cartes */
+}
+
+.product-card {
+  max-width: 300px; /* Largeur maximum des cartes */
+  background-color: white;
+  padding: 1em;
+  box-shadow: 0 5px 50px rgba(225, 225, 225, 0.5); /* Ombre douce */
+  margin: 20px; /* Marges entre les cartes */
+  transition: transform 0.3s ease; /* Transition pour l'animation */
+  cursor: pointer; /* Changer le curseur sur hover */
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Agrandir au survol */
+}
+
+.product-card img {
+  max-width: 100%; /* Assure que les images s'ajustent à la carte */
+  height: auto; /* Garde les proportions des images */
+}
+
+.product-card h4 {
+  font-size: 1.3em;
+  margin: 0.5em 0;
+}
+
+.price-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px; /* Espace sous le bouton */
+}
+
+.product-card button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 1em;
+  padding-bottom: 2px;
+}
+
+.footer-section {
+  margin-top: 120px;
+  background-color: black;
+  z-index: 10;
+  padding: 20px; /* Ajout de padding pour le footer */
+}
+
+.signature {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 16px 0;
+}
+
+.footer-list {
+  text-align: center;
+  color: white;
+}
+
+.footer-section li {
+  margin-bottom: 11px;
+  color: white;
+}
+
+.mail {
+  text-decoration: none;
+  color: white; /* Assurez-vous que le texte soit blanc */
+}
+
+#form-link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-copyright {
+  color: white;
+  text-align: center;
+  margin-top: 34px;
+  margin-left: 15px;
+  font-size: 13px;
+}
